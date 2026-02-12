@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Use '/' for custom domain (root). Use '/would_you/' if using username.github.io/would_you/
-  base: '/',
+  base: '/would_you/',
 })

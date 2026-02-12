@@ -104,7 +104,7 @@ function App() {
             </defs>
             <rect width="220" height="220" fill="url(#heartGrad)" clipPath="url(#heartClip)" />
             <image
-              href={heartImage}
+              href={encodeURI(heartImage)}
               x="0"
               y="0"
               width="220"
